@@ -25,7 +25,7 @@ main{
 }
 
 .aside-bar{ 
-    background-color: rgb(246, 190, 221);
+    background-color: rgb(246, 200, 225);
     min-height: 20vh;
     padding: 15px;
 }
@@ -61,12 +61,15 @@ main{
     border: none;
 }
 
+.grilla .card button:hover{
+    background-color: rgb(243, 68, 164);
+}
+
 footer{
     grid-area: footer;
     text-align: center;
     padding: 10px; 
 }
-
 
 .grid-container{
     display: grid;
@@ -76,7 +79,7 @@ footer{
      'footer''footer';
      gap: 10px;
 }
-/*  */
+
 .grid-container main{
     display: grid;
     grid-template-columns: auto 80%;
